@@ -2,10 +2,11 @@
   "name": "connectnow_task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --mode development --watch"
+    "webpack": "webpack --mode development --watch",
+    "server": "nodemon devServer/index.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,8 @@
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "react-redux": "^7.2.3",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
