@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
+import Nav from './comps/Nav'
+import Searcher from './comps/Searcher'
 const App =(props)=>{
     return(
-        <div>
-            <h1>
-                Hello World!!
-            </h1>
-        </div>
+        <Fragment>
+            <Nav/>
+            {}
+            <Route path='/' exact>
+                <Searcher/>
+            </Route>
+            <Route path='/contact'>
+            </Route>
+        </Fragment>
     )
 }
 
