@@ -7,3 +7,4 @@ For that, a simple server that responses with the statics files is needed.
 2- npm run server
 3- visit http://localhost:3000
 
+For view details of React, see "develop" branch
